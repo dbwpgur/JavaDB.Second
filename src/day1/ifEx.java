@@ -13,10 +13,14 @@ public class ifEx {
  */
 		int num = 0;
 		if((num == 0)){
+		// 만약 num 이 0 이면 0출력	
 			System.out.println( num +"는0 입니다");
-		}else if(num % 2==0) {
+		}else if((num % 2)==0) {
+	    //  만약 num가 0이 아니고,
+		//	num를 2로나누었을때 결과가 0과 같다면, 콘솔에 짝수 입니다 출력
 			System.out.println( num +"는 짝수입니다");
 		}else{
+			//num 이 0이아니고 2로나누었을때 0과 같지않다면 콘솔에 홀수를 출력하세요.
 			System.out.println( num +"는 홀수입니다.");
 			}
 	}
