@@ -115,7 +115,7 @@ public class operatorEx1 {
 		
 		num1 = 10;
 		++num1;
-		System.out.println("계산후후위형: " + num1);
+		System.out.println("계산중전위형: " + num1);
 	   
 		
 		num1 = 10;
